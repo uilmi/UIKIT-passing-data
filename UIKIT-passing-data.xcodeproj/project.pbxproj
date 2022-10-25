@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7508250A290795590010BCFC /* DuaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75082509290795590010BCFC /* DuaViewController.swift */; };
+		7508250C290795600010BCFC /* TigaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508250B290795600010BCFC /* TigaViewController.swift */; };
+		7508250F290798CC0010BCFC /* TextEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7508250E290798CC0010BCFC /* TextEntryViewController.swift */; };
+		756FC21328FE90250044B05D /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 756FC21228FE90250044B05D /* SecondViewController.swift */; };
 		75DFA80B28FCF6A600239E40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFA80A28FCF6A600239E40 /* AppDelegate.swift */; };
 		75DFA80D28FCF6A600239E40 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFA80C28FCF6A600239E40 /* SceneDelegate.swift */; };
 		75DFA80F28FCF6A600239E40 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DFA80E28FCF6A600239E40 /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		75082509290795590010BCFC /* DuaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaViewController.swift; sourceTree = "<group>"; };
+		7508250B290795600010BCFC /* TigaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TigaViewController.swift; sourceTree = "<group>"; };
+		7508250E290798CC0010BCFC /* TextEntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEntryViewController.swift; sourceTree = "<group>"; };
+		756FC21228FE90250044B05D /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		75DFA80728FCF6A600239E40 /* UIKIT-passing-data.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UIKIT-passing-data.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75DFA80A28FCF6A600239E40 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		75DFA80C28FCF6A600239E40 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +45,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7508250D290795780010BCFC /* Tab Controller */ = {
+			isa = PBXGroup;
+			children = (
+				75DFA80E28FCF6A600239E40 /* ViewController.swift */,
+				75082509290795590010BCFC /* DuaViewController.swift */,
+				7508250B290795600010BCFC /* TigaViewController.swift */,
+			);
+			path = "Tab Controller";
+			sourceTree = "<group>";
+		};
 		75DFA7FE28FCF6A600239E40 = {
 			isa = PBXGroup;
 			children = (
@@ -58,7 +76,9 @@
 			children = (
 				75DFA80A28FCF6A600239E40 /* AppDelegate.swift */,
 				75DFA80C28FCF6A600239E40 /* SceneDelegate.swift */,
-				75DFA80E28FCF6A600239E40 /* ViewController.swift */,
+				7508250D290795780010BCFC /* Tab Controller */,
+				7508250E290798CC0010BCFC /* TextEntryViewController.swift */,
+				756FC21228FE90250044B05D /* SecondViewController.swift */,
 				75DFA81028FCF6A600239E40 /* Main.storyboard */,
 				75DFA81328FCF6A800239E40 /* Assets.xcassets */,
 				75DFA81528FCF6A900239E40 /* LaunchScreen.storyboard */,
@@ -138,6 +158,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				756FC21328FE90250044B05D /* SecondViewController.swift in Sources */,
+				7508250C290795600010BCFC /* TigaViewController.swift in Sources */,
+				7508250A290795590010BCFC /* DuaViewController.swift in Sources */,
+				7508250F290798CC0010BCFC /* TextEntryViewController.swift in Sources */,
 				75DFA80F28FCF6A600239E40 /* ViewController.swift in Sources */,
 				75DFA80B28FCF6A600239E40 /* AppDelegate.swift in Sources */,
 				75DFA80D28FCF6A600239E40 /* SceneDelegate.swift in Sources */,
